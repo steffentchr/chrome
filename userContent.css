@@ -1,4 +1,24 @@
+/* POLITIKEN */
 @-moz-document domain(politiken.dk) {
-  /* Hide top along with left and right banners */
   #rightBanner, #leftBanner, #topMenu {display:none;}
+  object {visibility:hidden;}
+}
+
+/* BERLINGSKE */
+@-moz-document domain(berlingske.dk), @-moz-document domain(www.berlingske.dk) {
+  #vinkel_banner, #top-banner, .page {display:none;}
+  object {visibility:hidden;}
+}
+
+/* BT */
+@-moz-document domain(bt.dk), @-moz-document domain(www.bt.dk) {
+  #top_banner, #vinkel_banner, #toppartnermenu {display:none;}
+  object {visibility:hidden;}
+}
+
+
+/* EB */
+@-moz-document domain(eb.dk), @-moz-document domain(ekstrabaldet.dk) {
+  .xmain-head, #vinkelbanner {display:none;}
+  object {visibility:hidden;}
 }
