@@ -26,3 +26,11 @@
   .xmain-head, #vinkelbanner {display:none;}
   object {visibility:hidden;}
 }
+
+
+/* JP */
+@-moz-document domain(jp.dk) {
+  body {backgrounds-color:white !important; background-image:none !important;}
+  #dspPageTop, #dspPageBanner_vinkel, #topMenu {display:none;}
+  object {visibility:hidden;}
+}
