@@ -1,0 +1,4 @@
+@-moz-document domain(politiken.dk) {
+  /* Hide top along with left and right banners */
+  #rightBanner, #leftBanner, #topMenu {display:none;}
+}
