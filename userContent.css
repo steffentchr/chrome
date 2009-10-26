@@ -2,21 +2,21 @@
 @-moz-document domain(politiken.dk) {
   body {backgrounds-color:white !important; background-image:none !important;}
   #rightBanner, #leftBanner, #topMenu {display:none;}
-  object {visibility:hidden;}
+  object, embed {visibility:hidden;}
 }
 
 /* BERLINGSKE */
 @-moz-document domain(berlingske.dk) {
   body {backgrounds-color:white !important; background-image:none !important;}
   #vinkel_banner, #top-banner, .page {display:none;}
-  object {visibility:hidden;}
+  object, embed {visibility:hidden;}
 }
 
 /* BT */
 @-moz-document domain(bt.dk) {
   body {backgrounds-color:white !important; background-image:none !important;}
   #top_banner, #vinkel_banner, #toppartnermenu {display:none;}
-  object {visibility:hidden;}
+  object, embed {visibility:hidden;}
 }
 
 
@@ -24,7 +24,7 @@
 @-moz-document domain(ekstrabladet.dk) {
   body {backgrounds-color:white !important; background-image:none !important;}
   .xmain-head, #vinkelbanner {display:none;}
-  object {visibility:hidden;}
+  object, embed {visibility:hidden;}
 }
 
 
@@ -32,5 +32,5 @@
 @-moz-document domain(jp.dk) {
   body {backgrounds-color:white !important; background-image:none !important;}
   #dspPageTop, #dspPageBanner_vinkel, #topMenu {display:none;}
-  object {visibility:hidden;}
+  object, embed {visibility:hidden;}
 }
